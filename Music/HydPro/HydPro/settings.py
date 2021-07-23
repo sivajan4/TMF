@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pgcrypto',
-    'Demo',
+    'My_Appname',
 ]
 
 MIDDLEWARE = [
@@ -102,7 +102,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'encydb',
         'USER': 'siva',
-        'PASSWORD': 'test123',
+        'PASSWORD': '*******',
         'HOST': 'localhost',
         'PORT': '5432',
         }
